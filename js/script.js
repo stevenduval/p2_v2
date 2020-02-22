@@ -85,7 +85,7 @@ const appendPageLinks = (list) => {
          // After loop, set the className of the event.target to 'active'
          event.target.className = 'active';
          // Call showPage passing in the list parameter and event.target.innerHTML for the page number   
-         showPage(list, event.target.innerHTML)
+         showPage(list, event.target.innerHTML);
       }
    });
 }
